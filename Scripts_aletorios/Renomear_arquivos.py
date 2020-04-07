@@ -25,4 +25,4 @@ for oldname in os.listdir(filename):
                   os.path.join(filename, newname))
 
 
-print("Renamed")
+print("Renomeado")
