@@ -1,0 +1,6 @@
+nome = str(input('Digito o nome da pessoa:'))
+print('O nome da pessoal digita é {}'.format(nome))
+print('O nome com letras minusculas é {}'.format(nome.lower()))
+print('O nome com letras maiúsculas é {}'.format(nome.upper()))
+print('Quantidade de letras sem o espaços é {}'.format(len(nome.replace(' ', ''))))
+print('Quantidade de letras do primeiro nome é {}'.format(len(nome.split()[0])))
